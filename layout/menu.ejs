@@ -1,0 +1,57 @@
+
+<div class="nav bg-g d-flex justify-content-between flex-column">
+    <ul class="d-flex justify-content-center flex-column">
+        <li>
+            <h1><a href="#">logo</a></h1>
+        </li>
+        <li class="list-1 nav-item d-flex align-items-center">
+            <span class="material-icons">assessment</span>
+            <a class="nav-link active fw-bolder text-body" aria-current="page" href="#">Dashboard</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">question_answer</span>
+            <a class="nav-link fw-bolder text-body" href="#">Question</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">assignment</span>
+            <a class="nav-link fw-bolder text-body" href="#">Assignment</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <span class="material-symbols-outlined">video_library</span>
+            <a class="nav-link fw-bolder text-body" href="#">Course</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">supervisor_account</span>
+            <a class="nav-link fw-bolder text-body" href="#">Admin</a>
+        </li>
+        <li class="nav-item d-flex align-items-center">
+            <span class="material-icons">settings</span>
+            <a class="nav-link fw-bolder text-body" href="#">Settings</a>
+        </li>
+    </ul>
+    <ul class="pic d-flex justify-content-around align-items-center">
+        <img class="rounded-circle" src="../assets/images/andychen.jpeg" width="40" height="40" alt="andychen">
+        <li>
+            <h3 class="fw-bolder fs-6">Andy Chen</h3>
+            <a class="text-muted fw-normal fs-6" href="mailto:andy0401@mail.com">andy0401@mail.com</a>
+        </li>
+    </ul>
+</div>
+
+<!--助教講解:
+側欄可以用 min-width 來寫寬度 ，再利用 min-height: 100vh; 來佔滿畫面的高度：
+
+```css
+.nav {
+  /* 用 position: fixed; 可以固定住側欄 */
+  position: fixed;
+  min-width: 200px;
+  min-height: 100vh;
+}
+```
+由於側欄使用 position: fixed; 之後，右方有格線系統的主要內容會被壓在左側欄下方，所以需要再使用 margin-left: 200px; 推出空間。
+```css
+.main {
+  margin-left: 200px;
+}
+```-->
