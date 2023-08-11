@@ -20,7 +20,10 @@ h1 {
 }
 }
 
-
+.list-1{
+  border-left:4px solid Transparent;
+  
+}
 ul{
   list-style-type:none;
 }
@@ -31,9 +34,6 @@ a{
   position: fixed;
   min-width: 200px;
   min-height: 100vh;
-  .list-1{
-    border-left:4px solid Transparent;
-  }
   li{
     margin-bottom: 26px;
     left: 0;
