@@ -22,23 +22,25 @@ h1 {
 
 .list-1{
   border-left:4px solid Transparent;
-  
 }
-ul{
-  list-style-type:none;
-}
-a{
-  text-decoration:none;
-}
+
 .nav{
   position: fixed;
   min-width: 200px;
   min-height: 100vh;
   li{
+    padding-left: 32px;
     margin-bottom: 26px;
     left: 0;
     &:hover{
       border-left:4px solid #198754;
+      color:#198754;
+    }
+    a{
+      color:#000;
+      &:hover{
+        color:#198754;
+      }
     }
   }
 }
@@ -48,3 +50,4 @@ a{
     margin-right: 80px;
   }
 }
+

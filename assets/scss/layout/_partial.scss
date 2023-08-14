@@ -1,0 +1,30 @@
+.icons{
+    a{
+        color:#000;
+        &:hover{
+        color:#198754;
+        }
+    }
+}
+.title-1{
+    a{
+        text-decoration: none;
+    }
+}
+.title-2{
+    width: 176px;
+    .m-8{
+        margin: 8px 0;
+        margin-left:12px;
+    }
+    a{
+        text-decoration: none;
+        color:#000;
+        &:hover{
+        color:#198754;
+        }
+    }
+}
+.m-14{
+    margin: 14.5px 0;
+}

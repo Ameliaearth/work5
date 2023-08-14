@@ -1,3 +1,24 @@
 .main{
-  margin-left: 200px;
+  margin-left: 65px;
+}
+
+.container{
+  max-width:100%;
+}
+.title-4{
+  a{
+    color:#198754;
+    text-decoration: none;
+  }
+  .list-sty{
+    list-style-type: disc;
+  }
+}
+.list-1{
+  a{
+    color:black;
+    &:hover{
+      color:#198754;
+    }
+  }
 }
